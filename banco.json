@@ -1,0 +1,25 @@
+{
+    "musicas":[
+        {
+            "nome": "Fear of the dark",
+            "album": "Fear of the dark",
+            "banda": "Iron Maiden"
+        },{
+            "nome": "Nothing else matters",
+            "album": "Metallica",
+            "banda": "Metallica"
+        },{
+            "nome": "like sand",
+            "album": "Battles",
+            "banda": "In Flames"
+        },{
+            "nome": "Rebirth",
+            "album": "Rebith",
+            "banda": "Angra"
+        },{
+            "nome": "Late redemption",
+            "album": "Temple of Shadows",
+            "banda": "Angra"
+        }
+    ]
+}
