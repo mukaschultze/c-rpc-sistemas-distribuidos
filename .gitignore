@@ -2,5 +2,6 @@ client
 server
 *_clnt*
 *_svc*
-date.x
+date.h
+date_xdr.c
 *.o
