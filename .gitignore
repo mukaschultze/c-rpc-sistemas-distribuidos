@@ -1,0 +1,6 @@
+client
+server
+*_clnt*
+*_svc*
+date.x
+*.o
