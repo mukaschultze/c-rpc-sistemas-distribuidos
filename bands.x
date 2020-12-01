@@ -1,7 +1,7 @@
 typedef string json_result<65535>;
 
-program DATEPROG {	
-version DATEVERS { 
+program BANDSPROG {	
+version BANDSVERS { 
     void TEST(void) = 2; 
 
     string CREATE_BANDA(string) = 3;

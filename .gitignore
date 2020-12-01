@@ -2,6 +2,6 @@ client
 server
 *_clnt*
 *_svc*
-date.h
-date_xdr.c
+bands.h
+bands_xdr.c
 *.o

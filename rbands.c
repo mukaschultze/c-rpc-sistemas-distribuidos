@@ -6,8 +6,8 @@
 #include <stdlib.h>
 #include <time.h>
 
+#include "bands.h"
 #include "cJSON.h"
-#include "date.h"
 
 void delete_banda(CLIENT *cl) {
   char name[255];
@@ -123,7 +123,7 @@ int main(int argc, char *argv[]) {
   server = argv[1];
 
   /* create client handle */
-  if ((cl = clnt_create(server, DATEPROG, DATEVERS, "udp")) == NULL) {
+  if ((cl = clnt_create(server, BANDSPROG, BANDSVERS, "udp")) == NULL) {
     /* couldn't establish connection with server */
     printf("can't establish connection with host %s\n", server);
     exit(2);
